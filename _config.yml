@@ -1,5 +1,5 @@
 title: RGB Studios
-baseurl: ""
+baseurl: "rgbstudios.org"
 url: "rgbstudios-gen3-alpha"
 markdown: kramdown
 include: [_data]
