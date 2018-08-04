@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<style type="text/css">
+.st0{fill:#fff;}
+.st1{fill:#4D1919;}
+</style>
+<rect x="9.5" y="9.5" class="st0" width="45" height="45"/>
+<path class="st1" d="M53,11v42H11V11H53 M56,8H8v48h48V8L56,8z"/>
+<polygon class="st1" points="20,24 20,48 28,48 28,24 36,24 24,12 12,24 	"/>
+<polygon class="st1" points="36,36 36,12 44,12 44,36 52,36 40,48 28,36 	"/>
+</svg>

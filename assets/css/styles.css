@@ -1,0 +1,12 @@
+* {
+  font-family: MatrixBoldSmallCaps;
+}
+body {
+  background-color: #333;
+}
+trasparent {
+  background: transparent;
+}
+.vmin3 {
+  font-size: 3vmin !important;
+}

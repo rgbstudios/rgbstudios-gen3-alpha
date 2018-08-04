@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<style type="text/css">
+	.st0{fill:#e6e6e6;}
+	.st1{fill:#933;}
+	.st2{fill:#393;}
+	.st3{fill:#666;}
+	.st4{fill:#c6c;}
+	.st5{fill:#339;}
+</style>
+<path class="st0" d="M56,64H8c-4.4,0-8-3.6-8-8L0,8c0-4.4,3.6-8,8-8l48,0c4.4,0,8,3.6,8,8v48C64,60.4,60.4,64,56,64z"/>
+<circle class="st1" cx="20" cy="20" r="12"/>
+<circle class="st2" cx="40" cy="8" r="8"/>
+<rect x="32" y="40" class="st3" width="24" height="24"/>
+<polyline class="st4" points="8,48 16,40 24,48 16,64 "/>
+<circle class="st5" cx="50" cy="26" r="10"/>
+</svg>

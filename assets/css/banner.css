@@ -1,0 +1,29 @@
+.rgb-banner {
+  width: 100%;
+  min-width: 440px;
+  height: 110px;
+  background-size: 100% auto;
+  text-align: center;
+}
+.rgb-banner-icon {
+  height: 60px;
+  margin-top: -24px;
+  transition: transform 1s ease-out;
+  -webkit-transition: -webkit-transform 1s ease-out;
+}
+.rgb-banner-icon:hover {
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+}
+.rgb-banner-text {
+  display: inline-block;
+  color: #333;
+  font-size: 48pt;
+  letter-spacing: -1px;
+}
+.rgb-banner-subtext {
+  color: #333;
+  font-size: 18pt;
+  margin-top: -45px;
+}

@@ -1,0 +1,43 @@
+<link rel="stylesheet" itemprop="url" href="{{ site.baseurl }}/assets/css/header.css">
+<nav class="navbar navbar-expand-sm p-0">
+  <ul class="navbar-nav w-100">
+    <li class="nav-item p-0 rgb-header red {% if page.active == 'Home' %}active{% endif %}">
+      <a class="nav-link px-3" href="{{ site.baseurl }}/">
+        <span class="text-white vmin3">Home</span>
+      </a>
+    </li>
+    <li class="nav-item p-0 rgb-header green {% if page.active == 'New Projects' %}active{% endif %}">
+      <a class="nav-link px-3" href="{{ site.baseurl }}/new-projects/">
+        <span class="text-white vmin3">New Projects</span>
+      </a>
+    </li>
+    <li class="nav-item p-0 rgb-header blue {% if page.active == 'About Us' %}active{% endif %}">
+      <a class="nav-link px-3 py-2" href="{{ site.baseurl }}/about-us/">
+        <span class="text-white vmin3">About Us</span>
+      </a>
+    </li>
+    <li class="nav-item dropdown p-0 rgb-header red">
+      <a class="nav-link px-3 dropdown-toggle text-white rgb-header" href="#" id="rgbHeaderDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <span class="text-white vmin3">More</span>
+      </a>
+      <div class="dropdown-menu p-0 m-0 rounded-0 rgb-header" aria-labelledby="rgbHeaderDropdown">
+        <a class="dropdown-item rgb-header red" href="#">
+          <span class="text-white vmin3">Request a Quote</span>
+        </a>
+        <a class="dropdown-item rgb-header blue" href="#">
+          <span class="text-white vmin3">Help with Chrome Apps</span>
+        </a>
+      </div>
+    </li>
+  </ul>
+  <ul class="navbar-nav navbar-expand">
+    {% for item in site.data.social %}
+    <li class="nav-item p-0 rgb-header {{ item.color }}">
+      <a class="nav-link px-3" href="{{ item.url }}">
+        <span class="text-white vmin3"> </span>
+        <i class="{{ item.icon }} text-white vmin3"></i>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</nav>
