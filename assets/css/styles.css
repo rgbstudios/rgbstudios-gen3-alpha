@@ -1,5 +1,5 @@
 * {
-  font-family: MatrixBoldSmallCaps;
+  font-family: 'Roboto', sans-serif;
 }
 body {
   background-color: #333;
@@ -8,5 +8,5 @@ trasparent {
   background: transparent;
 }
 .vmin3 {
-  font-size: 3vmin !important;
+  font-size: 2.5vmin !important;
 }

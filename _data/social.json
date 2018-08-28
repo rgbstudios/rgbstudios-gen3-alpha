@@ -2,25 +2,25 @@
   {
     "name": "email",
     "url": "mailto:support@rgbstudios.org?Subject=Regarding RGB Studios",
-    "icon": "fa fa-envelope",
+    "icon": "fas fa-envelope",
     "color": "green"
   },
   {
     "name": "facebook",
     "url": "https://www.facebook.com/rgbstudios.org",
-    "icon": "fa fa-facebook-official",
+    "icon": "fab fa-facebook",
     "color": "blue"
   },
   {
     "name": "youtube",
     "url": "https://www.youtube.com/channel/UCW5yNQej45V4LDdZymAezZQ",
-    "icon": "fa fa-youtube-play",
+    "icon": "fab fa-youtube",
     "color": "red"
   },
   {
     "name": "twitter",
     "url": "https://twitter.com/rgbstudiosorg",
-    "icon": "fa fa-twitter",
+    "icon": "fab fa-twitter",
     "color": "blue"
   }
 ]

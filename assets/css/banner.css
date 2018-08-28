@@ -4,6 +4,10 @@
   height: 110px;
   background-size: 100% auto;
   text-align: center;
+  font-weight: 700;
+}
+.rgb-banner small {
+  font-weight: 700;
 }
 .rgb-banner-icon {
   height: 60px;
@@ -25,5 +29,5 @@
 .rgb-banner-subtext {
   color: #333;
   font-size: 18pt;
-  margin-top: -45px;
+  margin-top: -36px;
 }
