@@ -1,6 +1,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta id="meta1" name="theme-color" content="#333">
+  <!-- Windows Phone -->
+  <meta id="meta2" name="msapplication-navbutton-color" content="#333">
+  <!-- iOS Safari -->
+  <meta id="meta3" name="apple-mobile-web-app-status-bar-style" content="#333">
+
   <title>
     {% if page.title %}
       {{ page.title }} | 
@@ -20,4 +28,7 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
   
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css">
+
+  <script src="{{ site.baseurl }}/assets/js/meta.js"></script>
+
 </head>

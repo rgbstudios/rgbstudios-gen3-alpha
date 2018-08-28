@@ -4,14 +4,10 @@
   height: 110px;
   background-size: 100% auto;
   text-align: center;
-  font-weight: 700;
-}
-.rgb-banner small {
-  font-weight: 700;
 }
 .rgb-banner-icon {
   height: 60px;
-  margin-top: -24px;
+  margin-top: -12px;
   transition: transform 1s ease-out;
   -webkit-transition: -webkit-transform 1s ease-out;
 }
@@ -20,14 +16,17 @@
   -webkit-transform: rotate(360deg);
   -ms-transform: rotate(360deg);
 }
-.rgb-banner-text {
+.rgb-banner-text, small {
+  margin-top: 10px;
   display: inline-block;
-  color: #333;
-  font-size: 48pt;
-  letter-spacing: -1px;
+    color:  #fff;
+
+  font-weight: 700;
+  /*font-size: 40pt;*/
+  /*letter-spacing: -1px;*/
 }
 .rgb-banner-subtext {
-  color: #333;
-  font-size: 18pt;
-  margin-top: -36px;
+  color: #fff;
+  /*font-size: 18pt;*/
+  /*margin-top: -36px;*/
 }
