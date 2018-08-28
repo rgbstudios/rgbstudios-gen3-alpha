@@ -10,3 +10,24 @@ trasparent {
 .vmin3 {
   /*font-size: 2.5vmin !important;*/
 }
+
+
+
+.red-select::selection {
+  background: #fcc;
+}
+.red-select::-moz-selection {
+  background: #fcc;
+}
+.green-select::selection {
+  background: #cfc;
+}
+.green-select::-moz-selection {
+  background: #cfc;
+}
+.blue-select::selection {
+  background: #ccf;
+}
+.blue-select::-moz-selection {
+  background: #ccf;
+}
