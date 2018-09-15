@@ -2,7 +2,116 @@
   {
     "name": "Desktop Clock",
     "url": "https://chrome.google.com/webstore/detail/desktop-clock/fioeniclklclkopakbepllehmbfikpcc",
-    "icon": "assets/icons/utilities/desktop_clock.svg"
+    "icon": "assets/icons/utilities/desktop_clock.svg",
+    
+    "new": "false",
+    "featured": "true"
   },
+
+  {
+    "name": "Bounce",
+    "url": "https://chrome.google.com/webstore/detail/bounce/einmcdaghdipofpibojookebgdpggmlb",
+    "icon": "assets/icons/games/bounce.svg",
+    
+    "new": "false",
+    "featured": "true"
+  },
+
+  {
+    "name": "D&D Dice",
+    "url": "https://rgbstudios.org/dnd_dice/",
+    "icon": "assets/icons/utilities/dnd_dice.svg",
+    
+    "new": "true",
+    "featured": "true"
+  },
+
+  {
+    "name": "Grade Calc",
+    "url": "https://rgbstudios.org/grade-calc/",
+    "icon": "assets/icons/utilities/grade_calc.svg",
+    
+    "new": "true",
+    "featured": "false"
+  },
+
+  {
+    "name": "Base Convert",
+    "url": "https://rgbstudios.org/base-convert/",
+    "icon": "assets/icons/utilities/base_convert.svg",
+    
+    "new": "true",
+    "featured": "false"
+  },
+
+  {
+    "name": "Chrome Notes",
+    "url": "https://chrome.google.com/webstore/detail/chrome-notes/lnfempckkegmaeleniojhjplemmebgfi",
+    "icon": "assets/icons/utilities/chrome_notes.svg",
+    
+    "new": "false",
+    "featured": "true"
+  },
+
+  {
+    "name": "Intersect Calc",
+    "url": "https://rgbstudios.org/intersect-calc/",
+    "icon": "assets/icons/utilities/intersect_calc.svg",
+    
+    "new": "true",
+    "featured": "false"
+  },
+
+  {
+    "name": "Copylink",
+    "url": "https://chrome.google.com/webstore/detail/copylink/hmbglhnodfegeiemefjoejkkmncdobde",
+    "icon": "assets/icons/utilities/copylink.svg",
+    
+    "new": "false",
+    "featured": "true"
+  },
+
+  {
+    "name": "Doodle Pad",
+    "url": "https://rgbstudios.org/doodle-pad/",
+    "icon": "assets/icons/utilities/doodle_pad.svg",
+    
+    "new": "true",
+    "featured": "false"
+  },
+
+
+
+  {
+    "name": "Stat Calc",
+    "url": "https://rgbstudios.org/stat-calc/",
+    "icon": "assets/icons/utilities/stat_calc.svg",
+    
+    "new": "true",
+    "featured": "false"
+  },
+
+
+
+  {
+    "name": "Binomial Calc",
+    "url": "https://rgbstudios.org/binomial-calc/",
+    "icon": "assets/icons/utilities/binomial_calc.png",
+    
+    "new": "true",
+    "featured": "false"
+  },
+
+  {
+    "name": "Morse Convert",
+    "url": "https://rgbstudios.org/morse-convert/",
+    "icon": "assets/icons/utilities/morse_convert.svg",
+    
+    "new": "true",
+    "featured": "false"
+  },
+
+
+
 
 ]

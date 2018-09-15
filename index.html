@@ -3,47 +3,11 @@ layout: default-hbf
 active: Home
 ---
 
-<style type="text/css">
-	.itemDiv {
-		display: inline-block !important;
-		width: 25%;
-		padding: 20px;
-		margin: 10px;
-		background-color: #333;
-		color: #fff;
-		font-size: 150%;
-		border: 5px solid #fff;
-		text-align: center;
-	}
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/items.css">
 
-	.itemIcon {
-		width: 64px;
-	}
-/*	.itemDiv:hover {
-		border-color: #fff !important;
-	}
-	.itemDiv.redItem {
-		border-color: #933;
-	}
-	.itemDiv.greenItem {
-		border-color: #393;
-	}
-	.itemDiv.blueItem {
-		border-color: #339;
-	}*/
+<!-- TODO: featured carousel -->
 
-	.itemDiv.redItem:hover {
-		background-color: #933 !important;
-	}
-	.itemDiv.greenItem:hover {
-		background-color: #393 !important;
-	}
-	.itemDiv.blueItem:hover {
-		background-color: #339 !important;
-	}
-
-</style>
-
+<div id="itemContainer">
 {% for item in site.data.tools %}
 <a href="{{item.url}}">
 	{% assign loopindex = forloop.index0 | modulo:9 %}
@@ -60,3 +24,5 @@ active: Home
 </div></a>
 
 {% endfor %}
+
+</div>

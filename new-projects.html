@@ -5,4 +5,28 @@ active: New Projects
 permalink: /new-projects/
 ---
 
-<p>New Projects</p>
+<h3 style="color: #fff; text-align: center;">New Projects</h3>
+
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/items.css">
+
+<div id="itemContainer">
+{% for item in site.data.tools %}
+	{% if item.new=="true" %}
+		<a href="{{item.url}}">
+		{% assign loopindex = forloop.index0 | modulo:9 %}
+		  {% if loopindex==0 or loopindex==5 or loopindex==7 %}
+			<div class="itemDiv redItem">
+		  {% elsif loopindex==1 or loopindex==3 or loopindex==8 %}
+			<div class="itemDiv greenItem">
+		  {% elsif loopindex==2 or loopindex==4 or loopindex==6 %}
+		  	<div class="itemDiv blueItem">
+		  {% endif %}
+
+		{{item.name}}<br>
+		<img class="itemIcon" src="{{site.baseurl}}/{{item.icon}}">
+		</div></a>
+	{% endif %}
+
+{% endfor %}
+
+</div>
