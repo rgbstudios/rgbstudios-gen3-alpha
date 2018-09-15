@@ -31,7 +31,7 @@
     "url": "https://rgbstudios.org/grade-calc/",
     "icon": "assets/icons/utilities/grade_calc.svg",
     
-    "new": "true",
+    "new": "false",
     "featured": "false"
   },
 
@@ -58,7 +58,7 @@
     "url": "https://rgbstudios.org/intersect-calc/",
     "icon": "assets/icons/utilities/intersect_calc.svg",
     
-    "new": "true",
+    "new": "false",
     "featured": "false"
   },
 
@@ -76,7 +76,7 @@
     "url": "https://rgbstudios.org/doodle-pad/",
     "icon": "assets/icons/utilities/doodle_pad.svg",
     
-    "new": "true",
+    "new": "false",
     "featured": "false"
   },
 
@@ -87,7 +87,7 @@
     "url": "https://rgbstudios.org/stat-calc/",
     "icon": "assets/icons/utilities/stat_calc.svg",
     
-    "new": "true",
+    "new": "false",
     "featured": "false"
   },
 
@@ -111,7 +111,31 @@
     "featured": "false"
   },
 
+  {
+    "name": "Simple Shot",
+    "url": "https://chrome.google.com/webstore/detail/simpleshot/hpnikgbjfhnpcaoicgbkkialbejlecke",
+    "icon": "assets/icons/utilities/simple_shot.svg",
+    
+    "new": "true",
+    "featured": "true"
+  },
 
+  {
+    "name": "Binomial Calc Android App",
+    "url": "https://play.google.com/store/apps/details?id=org.rgbstudios.binomialdistributioncalculator",
+    "icon": "assets/icons/utilities/binomial_calc_app.svg",
+    
+    "new": "true",
+    "featured": "true"
+  },
 
+  {
+    "name": "Songs Searcher .com",
+    "url": "https:songssearcher.com",
+    "icon": "assets/icons/utilities/songs_searcher.svg",
+    
+    "new": "true",
+    "featured": "true"
+  },
 
 ]
