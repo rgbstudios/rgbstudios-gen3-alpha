@@ -1,8 +1,9 @@
 .itemDiv {
     display: inline-block !important;
-    width: 25%;
-    padding: 20px;
+    /*width: 25%;*/
+    padding: 10px;
     margin: 10px;
+    box-sizing: border-box;
     background-color: #333;
     color: #fff;
     font-size: 150%;
@@ -39,4 +40,8 @@
 
   #itemContainer {
     text-align: center;
+  }
+
+  a {
+    color: #fff !important;
   }

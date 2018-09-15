@@ -9,24 +9,37 @@ permalink: /new-projects/
 
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/items.css">
 
+<div class="container">
 <div id="itemContainer">
-{% for item in site.data.tools %}
-	{% if item.new=="true" %}
-		<a href="{{item.url}}">
-		{% assign loopindex = forloop.index0 | modulo:9 %}
-		  {% if loopindex==0 or loopindex==5 or loopindex==7 %}
-			<div class="itemDiv redItem">
-		  {% elsif loopindex==1 or loopindex==3 or loopindex==8 %}
-			<div class="itemDiv greenItem">
-		  {% elsif loopindex==2 or loopindex==4 or loopindex==6 %}
-		  	<div class="itemDiv blueItem">
-		  {% endif %}
+{% assign newprojects = site.data.tools | where:"new","true" %}
+{% for item in newprojects %}
 
-		{{item.name}}<br>
-		<img class="itemIcon" src="{{site.baseurl}}/{{item.icon}}">
-		</div></a>
-	{% endif %}
+	{% assign loopindex = forloop.index0 | modulo:9 %}
+	  {% if loopindex==0 or loopindex==3 or loopindex==6 %}
+	  	<div class="row">
+	  {% endif %}
+
+	<a href="{{item.url}}">
+
+	  {% if loopindex==0 or loopindex==5 or loopindex==7 %}
+		<div class="itemDiv redItem col-sm-3">
+	  {% elsif loopindex==1 or loopindex==3 or loopindex==8 %}
+		<div class="itemDiv greenItem col-sm-3">
+	  {% elsif loopindex==2 or loopindex==4 or loopindex==6 %}
+	  	<div class="itemDiv blueItem col-sm-3">
+	  {% endif %}
+
+	{{item.name}}<br>
+	<img class="itemIcon" src="{{site.baseurl}}/{{item.icon}}">
+
+	</a>
+
+	  {% if loopindex==2 or loopindex==5 or loopindex==8 %}
+	  	</div>
+	  {% endif %}
+
+</div>	
 
 {% endfor %}
 
-</div>
+</div></div>
