@@ -2,3 +2,61 @@
 layout: default-hbf
 active: Home
 ---
+
+<style type="text/css">
+	.itemDiv {
+		display: inline-block !important;
+		width: 25%;
+		padding: 20px;
+		margin: 10px;
+		background-color: #333;
+		color: #fff;
+		font-size: 150%;
+		border: 5px solid #fff;
+		text-align: center;
+	}
+
+	.itemIcon {
+		width: 64px;
+	}
+/*	.itemDiv:hover {
+		border-color: #fff !important;
+	}
+	.itemDiv.redItem {
+		border-color: #933;
+	}
+	.itemDiv.greenItem {
+		border-color: #393;
+	}
+	.itemDiv.blueItem {
+		border-color: #339;
+	}*/
+
+	.itemDiv.redItem:hover {
+		background-color: #933 !important;
+	}
+	.itemDiv.greenItem:hover {
+		background-color: #393 !important;
+	}
+	.itemDiv.blueItem:hover {
+		background-color: #339 !important;
+	}
+
+</style>
+
+{% for item in site.data.tools %}
+<a href="{{item.url}}">
+	{% assign loopindex = forloop.index0 | modulo:9 %}
+	  {% if loopindex==0 or loopindex==5 or loopindex==7 %}
+		<div class="itemDiv redItem">
+	  {% elsif loopindex==1 or loopindex==3 or loopindex==8 %}
+		<div class="itemDiv greenItem">
+	  {% elsif loopindex==2 or loopindex==4 or loopindex==6 %}
+	  	<div class="itemDiv blueItem">
+	  {% endif %}
+
+	{{item.name}}<br>
+	<img class="itemIcon" src="{{site.baseurl}}/{{item.icon}}">
+</div></a>
+
+{% endfor %}
