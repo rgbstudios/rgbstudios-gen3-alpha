@@ -138,4 +138,31 @@
     "featured": "true"
   },
 
+  {
+    "name": "Barcode Generator",
+    "url": "https://rgbstudios.org/barcode",
+    "icon": "assets/icons/utilities/barcode.png",
+    
+    "new": "true",
+    "featured": "false"
+  },
+
+  {
+    "name": "D&D Character Generator",
+    "url": "https://rgbstudios.org/dnd-dice/char",
+    "icon": "assets/icons/utilities/dnd_dice.svg",
+    
+    "new": "false",
+    "featured": "false"
+  },
+
+  {
+    "name": "D&D Spell Searcher",
+    "url": "https://rgbstudios.org/dnd-dice/spell",
+    "icon": "assets/icons/utilities/dnd_dice.svg",
+    
+    "new": "false",
+    "featured": "false"
+  },
+
 ]
