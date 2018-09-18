@@ -1,0 +1,4 @@
+organize apps by section:
+tools, websites, chrome apps, dnd, mobile apps, themes, articles, libraries, apis?
+make mobile nav not bad
+get projects to scale better
