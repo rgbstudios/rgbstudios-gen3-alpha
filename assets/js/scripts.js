@@ -6,6 +6,7 @@ window.onload = function() {
 
 
   let url = new URL(window.location.href);
+  console.log(url);
   let q = url.searchParams.get('q');
   if(q!='') {
     $('#navSearch').val(q);
@@ -46,7 +47,10 @@ function doSearch() {
 
     }
   }
+
   if(numResults==0) {
-    //TODO: display: no results found for navsearch.val
+    $('#noResultsP').html('No results found for ' + $('#navSearch').val() + '.<br>Click <a href="../../index.html">here</a> to return home.' );
+  } else {
+    $('#noResultsP').html('');
   }
 }

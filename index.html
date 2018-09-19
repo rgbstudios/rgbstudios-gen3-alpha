@@ -5,6 +5,12 @@ active: Home
 
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/items.css">
 
+<style type="text/css">
+	#noResultsP {
+		color: #fff;
+	}
+</style>
+
 <!-- TODO: featured carousel -->
 
 <!-- TODO: split into web apps, extensions, themes, websites, android apps, downloads, libraries, scripts, articles
@@ -28,6 +34,9 @@ i%9=
   -->
 
 <div class="text-center">
+
+<p id="noResultsP"></p>
+
 <div id="itemContainer" class="text-center">
 {% for item in site.data.tools %}
 
