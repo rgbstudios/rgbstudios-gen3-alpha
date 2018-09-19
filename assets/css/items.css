@@ -2,17 +2,24 @@
   display: inline-block;
   text-align: center !important;
   /*width: 25%;*/
-  padding: 10px;
-  margin: 10px;
   box-sizing: border-box;
   background-color: #333;
   color: #fff;
   font-size: 150%;
   border: 5px solid #fff;
 
-  cursor: pointer;
+  /*cursor: pointer;*/
   /*height: 150px;*/
 
+}
+
+.itemDiv {
+  padding: 10px;
+  margin: 10px;
+}
+.row {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .itemDiv.invisible {
@@ -54,7 +61,7 @@
   .itemLink, a, .itemLink:hover, a:hover {
     color: #fff;
     display: inline-block;
-    text-align: center !important;
+    /*text-align: center !important;*/
   }
   .row {
     display: inline;
