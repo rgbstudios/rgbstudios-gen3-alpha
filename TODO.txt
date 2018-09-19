@@ -14,3 +14,5 @@ change about-us to about and new-projects to new for url
 fix alignment of banner on mobile, alignment of items, especially when searching
 make search work from other pages
 edit focus outline color on search input in nav
+
+add twitter typeahead for searching?

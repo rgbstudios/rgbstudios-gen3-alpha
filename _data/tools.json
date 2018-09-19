@@ -96,7 +96,7 @@
   {
     "name": "Binomial Calc",
     "url": "https://rgbstudios.org/binomial-calc/",
-    "icon": "assets/icons/utilities/binomial_calc.png",
+    "icon": "assets/icons/utilities/binomial_calc.svg",
     
     "new": "true",
     "featured": "false"
@@ -141,7 +141,7 @@
   {
     "name": "Barcode Generator",
     "url": "https://rgbstudios.org/barcode",
-    "icon": "assets/icons/utilities/barcode.png",
+    "icon": "assets/icons/utilities/barcode.svg",
     
     "new": "true",
     "featured": "false"
