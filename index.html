@@ -27,37 +27,38 @@ i%9=
 
   -->
 
-<div class="container">
-<div id="itemContainer">
+<div class="text-center">
+<div id="itemContainer" class="text-center">
 {% for item in site.data.tools %}
 
 	{% assign loopindex = forloop.index0 | modulo:9 %}
-	  {% if loopindex==0 or loopindex==3 or loopindex==6 %}
-	  	<div class="row">
-	  {% endif %}
+		{% if loopindex==0 or loopindex==3 or loopindex==6 %}
+			<div class="row">
+		{% endif %}
 
-	<a href="{{item.url}}">
+	<a class="itemLink" href="{{item.url}}" target="_blank">
 
-	  {% if loopindex==0 or loopindex==5 or loopindex==7 %}
-		<div class="itemDiv redItem col-sm-3">
-	  {% elsif loopindex==1 or loopindex==3 or loopindex==8 %}
-		<div class="itemDiv greenItem col-sm-3">
-	  {% elsif loopindex==2 or loopindex==4 or loopindex==6 %}
-	  	<div class="itemDiv blueItem col-sm-3">
-	  {% endif %}
+		{% if loopindex==0 or loopindex==5 or loopindex==7 %}
+			<div class="itemDiv redItem col-sm-3">
+		{% elsif loopindex==1 or loopindex==3 or loopindex==8 %}
+			<div class="itemDiv greenItem col-sm-3">
+		{% elsif loopindex==2 or loopindex==4 or loopindex==6 %}
+			<div class="itemDiv blueItem col-sm-3">
+		{% endif %}
 
-	{{item.name}}<br>
-	<img class="itemIcon" src="{{site.baseurl}}/{{item.icon}}">
+		<p class="itemName">{{item.name}}</p>
+		<img class="itemIcon" src="{{site.baseurl}}/{{item.icon}}">
 
 	</a>
 
-	  {% if loopindex==2 or loopindex==5 or loopindex==8 %}
-	  	</div>
-	  {% endif %}
+	{% if loopindex==2 or loopindex==5 or loopindex==8 %}
+		</div>
+	{% endif %}
 
 
 </div>
 
 {% endfor %}
 
-</div></div>
+</div>
+</div>

@@ -1,10 +1,26 @@
 .rgb-banner {
   width: 100%;
-  min-width: 440px;
-  height: 110px;
+  /*min-width: 440px;*/
+  /*height: 110px;*/
   background-size: 100% auto;
   text-align: center;
+
+  /*NEW*/
+
+
+  
 }
+
+.rgb-banner.red-select {
+  background-color: rgba(153,51,51,.6);
+}
+.rgb-banner.green-select {
+  background-color: rgba(51,153,51,.6);
+}
+.rgb-banner.blue-select {
+  background-color: rgba(51,51,153,.6);
+}
+
 .rgb-banner-icon {
   height: 60px;
   margin-top: -12px;

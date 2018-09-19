@@ -19,7 +19,7 @@ permalink: /new-projects/
 	  	<div class="row">
 	  {% endif %}
 
-	<a href="{{item.url}}">
+	<a href="{{item.url}}" target="_blank">
 
 	  {% if loopindex==0 or loopindex==5 or loopindex==7 %}
 		<div class="itemDiv redItem col-sm-3">
@@ -29,7 +29,7 @@ permalink: /new-projects/
 	  	<div class="itemDiv blueItem col-sm-3">
 	  {% endif %}
 
-	{{item.name}}<br>
+	<p class="itemName">{{item.name}}</p>
 	<img class="itemIcon" src="{{site.baseurl}}/{{item.icon}}">
 
 	</a>

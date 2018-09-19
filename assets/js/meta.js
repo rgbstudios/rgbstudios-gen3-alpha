@@ -9,8 +9,3 @@ let cssClass = colorNames[idx];
 $('#meta1').prop('content',themeColor);
 $('#meta2').prop('content',themeColor);
 $('#meta3').prop('content',themeColor);
-
-$( document ).ready(function() {
-  $('*').addClass(cssClass);
-});
-

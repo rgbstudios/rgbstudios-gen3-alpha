@@ -1,4 +1,10 @@
 organize apps by section:
 tools, websites, chrome apps, dnd, mobile apps, themes, articles, libraries, apis?
+
 make mobile nav not bad
 get projects to scale better
+
+url params in search when click searhc button open base url with input text as param
+when load base url if search param run search function
+
+add footer
