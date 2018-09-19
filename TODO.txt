@@ -8,3 +8,9 @@ url params in search when click searhc button open base url with input text as p
 when load base url if search param run search function
 
 add footer
+
+change about-us to about and new-projects to new for url
+
+fix alignment of banner on mobile, alignment of items, especially when searching
+make search work from other pages
+edit focus outline color on search input in nav
