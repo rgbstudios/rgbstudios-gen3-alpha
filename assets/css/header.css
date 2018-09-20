@@ -9,13 +9,33 @@ style scaling of menu button
 #searchForm {
   margin-right: 25px;
 }
+.btn {
+  box-sizing: border-box !important;  
+}
 .btn-outline-success {
   border: 2px solid #393;
 }
-.btn-outline-success:focus, .input-success:focus {
-  border: 5px solid #393 !important;
-  box-sizing: border-box !important;
+.btn-outline-danger {
+  border: 2px solid #933;
 }
+
+.btn-outline-success:hover {
+  background-color: #393;
+}
+.btn-outline-danger:hover {
+  background-color: #933;
+}
+
+.btn-outline-danger:focus {
+  border: 5px solid #933 !important;
+}
+.btn-outline-success:focus {
+  border: 5px solid #393 !important;
+}
+.input-primary:focus {
+  border: 5px solid #339 !important;
+}
+
 .navbar-toggler {
   border: 0;
   width: 50px;

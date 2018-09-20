@@ -24,9 +24,13 @@ window.onload = function() {
   $('#navSearch').on('keyup', doSearch);
   $('#searchForm').on('submit', function(e) { //hit enter in input or click button
     e.preventDefault();
-    $('#navRgbText').click();
+    // $('#navRgbText').click();
     window.open('../../index.html/?q=' + $('#navSearch').val(), '_self');
   });
+  $('#navClearButton').on('click', function(e) {
+    e.preventDefault();
+    $('#navSearch').val('');
+  })
 
 }
 
