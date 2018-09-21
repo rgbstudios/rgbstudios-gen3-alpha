@@ -4,7 +4,6 @@ window.onload = function() {
 	$('*').addClass(cssClass);
 
   let url = new URL(window.location.href);
-  console.log(url);
   let q = url.searchParams.get('q');
   if(q!='') {
     $('#navSearch').val(q);

@@ -3,6 +3,9 @@
     "name": "Desktop Clock",
     "url": "https://chrome.google.com/webstore/detail/desktop-clock/fioeniclklclkopakbepllehmbfikpcc",
     "icon": "assets/icons/utilities/desktop_clock.svg",
+
+    "platform": "website",
+    "category": "tool",
     
     "new": "false",
     "featured": "true"
@@ -11,7 +14,10 @@
   {
     "name": "Bounce",
     "url": "https://chrome.google.com/webstore/detail/bounce/einmcdaghdipofpibojookebgdpggmlb",
-    "icon": "assets/icons/games/bounce.svg",
+    "icon": "assets/icons/utilities/bounce.svg",
+
+    "platform": "web app",
+    "category": "games",
     
     "new": "false",
     "featured": "true"
@@ -21,6 +27,9 @@
     "name": "D&D Dice",
     "url": "https://rgbstudios.org/dnd-dice/",
     "icon": "assets/icons/utilities/d20-white.svg",
+
+    "platform": "website",
+    "category": "games",
     
     "new": "true",
     "featured": "true"
@@ -30,6 +39,9 @@
     "name": "Grade Calc",
     "url": "https://rgbstudios.org/grade-calc/",
     "icon": "assets/icons/utilities/grade_calc.svg",
+
+    "platform": "website",
+    "category": "tool",
     
     "new": "false",
     "featured": "false"
@@ -39,6 +51,9 @@
     "name": "Base Convert",
     "url": "https://rgbstudios.org/base-convert/",
     "icon": "assets/icons/utilities/base_convert.svg",
+
+    "platform": "website",
+    "category": "tool",
     
     "new": "true",
     "featured": "false"
@@ -48,6 +63,9 @@
     "name": "Chrome Notes",
     "url": "https://chrome.google.com/webstore/detail/chrome-notes/lnfempckkegmaeleniojhjplemmebgfi",
     "icon": "assets/icons/utilities/chrome_notes.svg",
+
+    "platform": "extension",
+    "category": "tool",
     
     "new": "false",
     "featured": "true"
@@ -57,6 +75,9 @@
     "name": "Intersect Calc",
     "url": "https://rgbstudios.org/intersect-calc/",
     "icon": "assets/icons/utilities/intersect_calc.svg",
+
+    "platform": "website",
+    "category": "tool",
     
     "new": "false",
     "featured": "false"
@@ -66,6 +87,9 @@
     "name": "Copylink",
     "url": "https://chrome.google.com/webstore/detail/copylink/hmbglhnodfegeiemefjoejkkmncdobde",
     "icon": "assets/icons/utilities/copylink.svg",
+
+    "platform": "extension",
+    "category": "tool",
     
     "new": "false",
     "featured": "true"
@@ -75,6 +99,9 @@
     "name": "Doodle Pad",
     "url": "https://rgbstudios.org/doodle-pad/",
     "icon": "assets/icons/utilities/doodle_pad.svg",
+
+    "platform": "website",
+    "category": "tool",
     
     "new": "false",
     "featured": "false"
@@ -86,6 +113,9 @@
     "name": "Stat Calc",
     "url": "https://rgbstudios.org/stat-calc/",
     "icon": "assets/icons/utilities/stat_calc.svg",
+
+    "platform": "website",
+    "category": "tool",
     
     "new": "false",
     "featured": "false"
@@ -97,6 +127,9 @@
     "name": "Binomial Calc",
     "url": "https://rgbstudios.org/binomial-calc/",
     "icon": "assets/icons/utilities/binomial_calc.svg",
+
+    "platform": "website",
+    "category": "tool",
     
     "new": "true",
     "featured": "false"
@@ -106,6 +139,9 @@
     "name": "Morse Convert",
     "url": "https://rgbstudios.org/morse-convert/",
     "icon": "assets/icons/utilities/morse_convert.svg",
+
+    "platform": "website",
+    "category": "tool",
     
     "new": "true",
     "featured": "false"
@@ -115,6 +151,9 @@
     "name": "Simple Shot",
     "url": "https://chrome.google.com/webstore/detail/simpleshot/hpnikgbjfhnpcaoicgbkkialbejlecke",
     "icon": "assets/icons/utilities/simple_shot.svg",
+
+    "platform": "extension",
+    "category": "tool",
     
     "new": "true",
     "featured": "true"
@@ -124,6 +163,9 @@
     "name": "Binomial Calc Android App",
     "url": "https://play.google.com/store/apps/details?id=org.rgbstudios.binomialdistributioncalculator",
     "icon": "assets/icons/utilities/binomial_calc_app.svg",
+
+    "platform": "app",
+    "category": "tool",
     
     "new": "true",
     "featured": "true"
@@ -133,6 +175,9 @@
     "name": "Songs Searcher .com",
     "url": "https:songssearcher.com",
     "icon": "assets/icons/utilities/songs_searcher.svg",
+
+    "platform": "website",
+    "category": "tool",
     
     "new": "true",
     "featured": "true"
@@ -142,6 +187,9 @@
     "name": "Barcode Generator",
     "url": "https://rgbstudios.org/barcode",
     "icon": "assets/icons/utilities/barcode.svg",
+
+    "platform": "website",
+    "category": "tool",
     
     "new": "true",
     "featured": "false"
@@ -151,6 +199,9 @@
     "name": "D&D Character Generator",
     "url": "https://rgbstudios.org/dnd-dice/char",
     "icon": "assets/icons/utilities/d6-white.svg",
+
+    "platform": "website",
+    "category": "games",
     
     "new": "false",
     "featured": "false"
@@ -160,6 +211,9 @@
     "name": "D&D Spell Searcher",
     "url": "https://rgbstudios.org/dnd-dice/spell",
     "icon": "assets/icons/utilities/d8-white.svg",
+
+    "platform": "website",
+    "category": "games",
     
     "new": "false",
     "featured": "false"
