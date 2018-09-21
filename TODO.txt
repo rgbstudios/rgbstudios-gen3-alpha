@@ -16,3 +16,5 @@ make search work from other pages
 edit focus outline color on search input in nav
 
 add twitter typeahead for searching?
+
+searching "D&D" doesn't find correct stuff. ampersand escape issues?
