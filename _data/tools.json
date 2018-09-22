@@ -210,7 +210,7 @@
   {
     "name": "Simple Grade Calc",
     "url": "https://rgbstudios.org/simple-grade-calc/",
-    "icon": "assets/icons/utilities/grade_calc.svg",
+    "icon": "assets/icons/utilities/simple_grade_calc.svg",
 
     "platform": "website",
     "category": "tool",
