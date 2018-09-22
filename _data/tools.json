@@ -208,6 +208,18 @@
   },
 
   {
+    "name": "Simple Grade Calc",
+    "url": "https://rgbstudios.org/simple-grade-calc/",
+    "icon": "assets/icons/utilities/grade_calc.svg",
+
+    "platform": "website",
+    "category": "tool",
+    
+    "new": "false",
+    "featured": "false"
+  },
+
+  {
     "name": "D&D Spell Searcher",
     "url": "https://rgbstudios.org/dnd-dice/spell",
     "icon": "assets/icons/utilities/d8-white.svg",
