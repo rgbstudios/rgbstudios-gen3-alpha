@@ -230,5 +230,17 @@
     "new": "false",
     "featured": "false"
   },
+  
+  {
+    "name": "Replacement Calc",
+    "url": "https://rgbstudios.org/replacement-calc",
+    "icon": "assets/icons/utilities/replacement_calc.svg",
+
+    "platform": "website",
+    "category": "tool",
+    
+    "new": "true",
+    "featured": "false"
+  },
 
 ]
