@@ -122,6 +122,25 @@ style scaling of menu button
 .navbar-toggler {
 
 }
+
+
+/* Change Autocomplete styles in Chrome*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 2px solid #339;
+  -webkit-text-fill-color: #339;
+  -webkit-box-shadow: 0 0 0px 1000px #66c inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+
 /*@media only screen and (max-width: 575.5px) {
   .rgb-header.dropdown-menu {
     border: none !important;
