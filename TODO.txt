@@ -4,7 +4,7 @@ tools, websites, chrome apps, dnd, mobile apps, themes, articles, libraries, api
 make mobile nav not bad
 get projects to scale better
 
-url params in search when click searhc button open base url with input text as param
+url params in search when click search button open base url with input text as param
 when load base url if search param run search function
 
 add footer
@@ -18,3 +18,6 @@ edit focus outline color on search input in nav
 add twitter typeahead for searching?
 
 searching "D&D" doesn't find correct stuff. ampersand escape issues?
+
+give each item a description and platform, allow sorting by platforms.
+for exaple, binomial calc has a description below and an android icon and globe icon
