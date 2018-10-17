@@ -43,6 +43,7 @@ window.onload = function() {
   $('#navClearButton').on('click', function(e) {
     e.preventDefault();
     $('#navSearch').val('');
+    	doSearch(); //update results
   })
 
 }
