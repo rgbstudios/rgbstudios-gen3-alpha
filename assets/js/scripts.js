@@ -20,6 +20,7 @@ window.onload = function() {
   });
 
   //search
+  //TODO: backspace doesnt update
   $('#navSearch').on('keydown', function(e) {
   	if(e.keyCode==13) { //enter does search
 		e.preventDefault();
@@ -40,7 +41,7 @@ window.onload = function() {
 		window.open('../../index.html/?q=' + $('#navSearch').val(), '_self');
 		$('#navSearch').select();
   });
-  $('#navClearButton').on('click', function(e) {
+  $('#navClearButton').on('click', function(e) { //todo: clicking close should remove query from url
     e.preventDefault();
     $('#navSearch').val('');
     	doSearch(); //update results

@@ -13,13 +13,15 @@
 
 }
 
+
 .itemDiv {
   padding: 10px;
   margin: 10px;
 }
+/*note: keep below numbers half of above numbers*/
 .row {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .itemDiv.invisible {
